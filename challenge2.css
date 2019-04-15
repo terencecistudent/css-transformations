@@ -1,0 +1,14 @@
+.img {
+  animation: spin 3s infinite linear;
+  margin: 30px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    
+    to {
+        transform: rotate(260deg);
+    }
+}
